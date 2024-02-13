@@ -3,6 +3,9 @@ import { Inter } from "next/font/google";
 import "./globals.css";
 import GlobalProvides from '@/context/globalContext'
 
+// Import Swiper styles
+import 'swiper/css';
+
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
